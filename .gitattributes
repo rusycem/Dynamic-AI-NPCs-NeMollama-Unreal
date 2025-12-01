@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+Content/Audio/** filter=lfs diff=lfs merge=lfs -text
+Content/Core/** filter=lfs diff=lfs merge=lfs -text
+Content/Collections/** filter=lfs diff=lfs merge=lfs -text
+Content/Developers/** filter=lfs diff=lfs merge=lfs -text
+Content/InspectionSystemPro/** filter=lfs diff=lfs merge=lfs -text
+Content/LanguageModel/** filter=lfs diff=lfs merge=lfs -text
+Content/Levels/** filter=lfs diff=lfs merge=lfs -text
+Content/Maps/** filter=lfs diff=lfs merge=lfs -text
+Content/Materials/** filter=lfs diff=lfs merge=lfs -text
+Content/Meshes/** filter=lfs diff=lfs merge=lfs -text
+Content/MetaHumans/** filter=lfs diff=lfs merge=lfs -text
+Content/Splash/** filter=lfs diff=lfs merge=lfs -text
