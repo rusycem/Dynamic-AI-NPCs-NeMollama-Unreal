@@ -33,15 +33,15 @@ This shows how the project is organized on my local machine:
 ## ⚙️ External Dependencies
 
 Some components are not included in the main repo due to size or licensing restrictions.  
-You can download and extract them into the `ExternalDependencies` folder.
+You can download it here at [ExternalDependencies](ExternalDependencies) and extract them into the `path` folder.
 
 1. **NeMo TTS Models**  
    - File: `tts_en_multispeaker_fastpitchhifigan.7z`  
-   - Path after extraction: `ExternalDependencies/tts_en_multispeaker_fastpitchhifigan/`  
+   - Path after extraction: `D:/Users/username/Documents/Visual Studio Code Projects/tts_en_multispeaker_fastpitchhifigan`  
 
 2. **Custom Ollama Character Models**  
    - File: `modelfile.7z`  
-   - Path after extraction: `ExternalDependencies/Modelfile/`
+   - Path after extraction: `C:/Users/username/OneDrive/Desktop/modelfile`
   
 ## ⚙️ Downloading NVIDIA NeMo TTS Models
 
