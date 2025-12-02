@@ -89,8 +89,9 @@ cd dynamic-ai-npc-ue5
 ```
 
 ### 2. Install Ollama + LLaMA 3.2
+For detailed character setup, prompts, and MetaHuman/Audio2Face integration, see [CHARACTER_SETUP.md](CHARACTER_SETUP.md)
 ```bash
-winget install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
 ollama pull llama3.2
 ```
 
