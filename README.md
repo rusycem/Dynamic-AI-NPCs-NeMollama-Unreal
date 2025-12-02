@@ -101,6 +101,7 @@ ollama run llama3.2
 ```
 
 ### 3. Install NeMo FastPitch inside WSL2
+For detailed WSL and text-to-speech setup, prompts, and MetaHuman/Audio2Face integration, see [TTS_SETUP.md](TTS_SETUP.md)
 ```bash
 wsl --install
 ```
