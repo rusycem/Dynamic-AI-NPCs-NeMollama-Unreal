@@ -62,7 +62,7 @@ Inside the folder `ExternalDependencies/tts_en_multispeaker_fastpitchhifigan/`, 
 3. Place them inside:
 
 ```
-ExternalDependencies/tts_en_multispeaker_fastpitchhifigan/
+D:/Users/username/Documents/Visual Studio Code Projects/tts_en_multispeaker_fastpitchhifigan/
 ```
 
 > After this step, the Python inference script (`tts_inference.py`) will be able to locate the models for speech synthesis in Unreal Engine.
