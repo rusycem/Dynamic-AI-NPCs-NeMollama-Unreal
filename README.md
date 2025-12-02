@@ -134,10 +134,20 @@ Enable required plugins:
 
 ## 📁 Project Structure (GitHub Repo)
 ```bash
-/ue5_project
+/Dynamic-AI-NPCs-NeMollama-Unreal
+    Config/
     Content/
-    Scripts/
+    ExternalDependencies/
+        modelfile.7z
+        tts_en_multispeaker_fastpitchhifigan.7z
+    Plugins/VisualStudioTools/
+    Source/
 README.md
+CHARACTER_SETUP.md
+LOCAL_SETUP.md
+TTS_SETUP.md
+KairosSample.uproject
+...
 ```
 
 ## ⚙️ Local Dependencies (Not Included in Repo)
