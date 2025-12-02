@@ -133,20 +133,37 @@ Enable required plugins:
 ---
 
 ## 📁 Project Structure
-```bash
-/ai_pipeline
-    /python
-        dialogue_handler.py
-        ollama_bridge.py
-        tts_fastpitch_wsl.py
-    /audio
-        output.wav
-/kairos
-    A2F_LiveLink.uasset
-/ue5_project
-    Content/
-    Scripts/
-README.md
+
+```
+1. Ollama Installation
+   C:/Users/username/AppData/Local/Programs/Ollama
+
+2. WSL2 / Ubuntu Environment
+   Linux/Ubuntu/home/username
+       ├─ run_nemo.sh
+       ├─ miniconda3/
+       └─ ollama_bridge.py
+
+3. Custom Model Files & Scripts
+   C:/Users/username/OneDrive/Desktop/modelfile
+       ├─ ask_ollama.bat
+       ├─ Modelfile
+       ├─ my.txt
+       ├─ ollama.json
+       └─ python-clientsscriptsttstalk/
+
+4. Python Scripts & NeMo Models
+   D:/Users/username/Documents/Visual Studio Code Projects/tts_en_multispeaker_fastpitchhifigan
+       ├─ audio.wav
+       ├─ tts_en_fastpitch_multispeaker.nemo
+       ├─ tts_en_hifitts_hifigan_ft_fastpitch.nemo
+       ├─ tts_inference/
+       └─ tts_runner/
+
+5. Unreal Engine 5 Project
+   ue5_project/
+       ├─ Content/
+       └─ Scripts/
 ```
 
 ---
