@@ -132,39 +132,26 @@ Enable required plugins:
 
 ---
 
-## 📁 Project Structure
-
+## 📁 Project Structure (GitHub Repo)
+```bash
+/ue5_project
+    Content/
+    Scripts/
+README.md
 ```
-1. Ollama Installation
-   C:/Users/username/AppData/Local/Programs/Ollama
 
-2. WSL2 / Ubuntu Environment
-   Linux/Ubuntu/home/username
-       ├─ run_nemo.sh
-       ├─ miniconda3/
-       └─ ollama_bridge.py
+## ⚙️ Local Dependencies (Not Included in Repo)
 
-3. Custom Model Files & Scripts
-   C:/Users/username/OneDrive/Desktop/modelfile
-       ├─ ask_ollama.bat
-       ├─ Modelfile
-       ├─ my.txt
-       ├─ ollama.json
-       └─ python-clientsscriptsttstalk/
+This repository contains the UE5 project only. To fully enable dynamic NPC dialogues and TTS:
 
-4. Python Scripts & NeMo Models
-   D:/Users/username/Documents/Visual Studio Code Projects/tts_en_multispeaker_fastpitchhifigan
-       ├─ audio.wav
-       ├─ tts_en_fastpitch_multispeaker.nemo
-       ├─ tts_en_hifitts_hifigan_ft_fastpitch.nemo
-       ├─ tts_inference/
-       └─ tts_runner/
+1. **Ollama LLaMA 3.2** must be installed locally, see [TTS_SETUP.md](TTS_SETUP.md)
+2. **Custom character models** (Damien Cross, Clarissa Vane, Emily Langford) are required to setup manually, see [CHARACTER_SETUP.md](CHARACTER_SETUP.md)
+3. **NVIDIA NeMo FastPitch + HiFi-GAN** models for TTS must be set up in WSL2, see [TTS_SETUP.md](TTS_SETUP.md)
+4. Python helper scripts (`tts_inference.py`, `tts_runner.py`, etc.) must be placed in your local workspace, see [LOCAL_SETUP.md](LOCAL_SETUP.md)
 
-5. Unreal Engine 5 Project
-   ue5_project/
-       ├─ Content/
-       └─ Scripts/
-```
+> These files are not included in the repo due to size/licensing constraints.
+> For full local directory structure, see [LOCAL_SETUP.md](LOCAL_SETUP.md)
+
 
 ---
 
