@@ -4,7 +4,7 @@ This document details the integration of **NVIDIA NeMo TTS** using the **FastPit
 
 ---
 
-## 4.6.1 Local NeMo Repository Setup
+## 1.0 Local NeMo Repository Setup
 
 1. **Install WSL2 with Ubuntu**
 
@@ -50,7 +50,7 @@ python -c "import nemo.collections.tts as tts; print(tts.__version__)"
 
 ---
 
-## 4.6.2 TTS Inference Script
+## 2.0 TTS Inference Script
 
 Inside WSL, create `tts_inference.py` to load FastPitch + HiFi-GAN models, tokenize input text, generate mel spectrograms, and synthesize `.wav` audio:
 
@@ -80,7 +80,7 @@ python tts_inference.py
 
 ---
 
-## 4.6.3 C++ Helper Class (TTSHelper) in UE5
+## 3.0 C++ Helper Class (TTSHelper) in UE5
 
 To bridge **Unreal Engine 5** with **NeMo FastPitch** in WSL2, a custom **C++ helper class** `TTSHelper` was implemented. It handles:
 
@@ -129,7 +129,7 @@ void UTTSHelper::RunTTSCommand(const FString& TextToSpeak, const FString& Voice)
 
 ---
 
-## 4.6.4 Playing Audio in Unreal
+## 4.0 Playing Audio in Unreal
 
 Once `.wav` is generated:
 
@@ -140,7 +140,7 @@ UGameplayStatics::PlaySoundAtLocation(World, SW, NPCActor->GetActorLocation());
 
 ---
 
-## 4.6.5 Enhancements & Considerations
+## 5.0 Enhancements & Considerations
 
 - **Security:** Load tokens/credentials from environment variables or config files  
 - **Voice Selection UI:** Supports `--list-voices` for dynamic selection  
